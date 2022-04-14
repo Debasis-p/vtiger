@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Excel opened sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Excel closed successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49639" started-at="2022-04-12T10:10:21Z" finished-at="2022-04-12T10:11:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49639" started-at="2022-04-12T10:10:21Z" finished-at="2022-04-12T10:11:11Z">
+      <class name="com.crm.vtiger.CreateOrgWithIndustryTest">
+        <test-method status="PASS" signature="openConnection()[pri:0, instance:com.crm.vtiger.CreateOrgWithIndustryTest@2ed0fbae]" name="openConnection" is-config="true" duration-ms="778" started-at="2022-04-12T10:10:20Z" finished-at="2022-04-12T10:10:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Excel opened sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openConnection -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.crm.vtiger.CreateOrgWithIndustryTest@2ed0fbae]" name="launchBrowser" is-config="true" duration-ms="3201" started-at="2022-04-12T10:10:21Z" finished-at="2022-04-12T10:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.vtiger.CreateOrgWithIndustryTest@2ed0fbae]" name="loginToApp" is-config="true" duration-ms="4054" started-at="2022-04-12T10:10:24Z" finished-at="2022-04-12T10:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="createOrgWithIndustryTest()[pri:0, instance:com.crm.vtiger.CreateOrgWithIndustryTest@2ed0fbae]" name="createOrgWithIndustryTest" duration-ms="16767" started-at="2022-04-12T10:10:28Z" finished-at="2022-04-12T10:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustryTest -->
+        <test-method status="PASS" signature="logoutFromApp()[pri:0, instance:com.crm.vtiger.CreateOrgWithIndustryTest@2ed0fbae]" name="logoutFromApp" is-config="true" duration-ms="2172" started-at="2022-04-12T10:10:45Z" finished-at="2022-04-12T10:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.vtiger.CreateOrgWithIndustryTest@2ed0fbae]" name="closeBrowser" is-config="true" duration-ms="776" started-at="2022-04-12T10:10:47Z" finished-at="2022-04-12T10:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeConnection()[pri:0, instance:com.crm.vtiger.CreateOrgWithIndustryTest@2ed0fbae]" name="closeConnection" is-config="true" duration-ms="10" started-at="2022-04-12T10:11:11Z" finished-at="2022-04-12T10:11:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Excel closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- com.crm.vtiger.CreateOrgWithIndustryTest -->
+      <class name="com.crm.vtiger.CreateOrgTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.crm.vtiger.CreateOrgTest@212bf671]" name="launchBrowser" is-config="true" duration-ms="2682" started-at="2022-04-12T10:10:48Z" finished-at="2022-04-12T10:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.vtiger.CreateOrgTest@212bf671]" name="loginToApp" is-config="true" duration-ms="3847" started-at="2022-04-12T10:10:51Z" finished-at="2022-04-12T10:10:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="createOrgTest()[pri:0, instance:com.crm.vtiger.CreateOrgTest@212bf671]" name="createOrgTest" duration-ms="13344" started-at="2022-04-12T10:10:55Z" finished-at="2022-04-12T10:11:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method status="PASS" signature="logoutFromApp()[pri:0, instance:com.crm.vtiger.CreateOrgTest@212bf671]" name="logoutFromApp" is-config="true" duration-ms="2060" started-at="2022-04-12T10:11:08Z" finished-at="2022-04-12T10:11:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.vtiger.CreateOrgTest@212bf671]" name="closeBrowser" is-config="true" duration-ms="716" started-at="2022-04-12T10:11:10Z" finished-at="2022-04-12T10:11:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.vtiger.CreateOrgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
